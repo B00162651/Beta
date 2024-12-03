@@ -3,7 +3,7 @@ using UnityEngine;
 public class carTilt : MonoBehaviour
 {
     // Maximum tilt angle
-    public float tiltAmount = 10f;  
+    [SerializeField] public float tiltAmount = 10f;  
 
     void Update()
     {
